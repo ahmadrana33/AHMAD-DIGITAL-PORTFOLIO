@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ahmad Digital - Digital marketing and web development portfolio.">
+  <title>Ahmad Digital | Digital Marketing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home">Ahmad<span>Digital</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">DIGITAL MARKETING & WEB DEVELOPMENT</p>
+          <h1>Helping businesses build a <span>strong online presence.</span></h1>
+          <p class="hero-text">I create clean websites and digital marketing solutions that help small businesses present themselves professionally online.</p>
+          <div class="hero-buttons">
+            <a class="btn primary" href="#projects">View My Projects</a>
+            <a class="btn secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card-icon">🚀</div>
+          <h3>My Goal</h3>
+          <p>Learn, build real projects, and help businesses grow online.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section-label">ABOUT ME</p>
+        <h2>Who I am</h2>
+        <div class="about-grid">
+          <div>
+            <p>Hi, I'm <strong>Ahmad</strong>, a beginner web developer interested in digital marketing and modern websites.</p>
+            <p>I enjoy learning new technologies and turning ideas into simple, useful web experiences.</p>
+          </div>
+          <div class="stats">
+            <div><strong>HTML</strong><span>Web Structure</span></div>
+            <div><strong>CSS</strong><span>Design & Layout</span></div>
+            <div><strong>JS</strong><span>Interactions</span></div>
+            <div><strong>SEO</strong><span>Online Visibility</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="services">
+      <div class="container">
+        <p class="section-label">WHAT I DO</p>
+        <h2>My Services</h2>
+        <div class="cards">
+          <article class="service-card"><div class="icon">💻</div><h3>Web Development</h3><p>Clean and responsive websites for personal brands and small businesses.</p></article>
+          <article class="service-card"><div class="icon">📈</div><h3>Digital Marketing</h3><p>Basic digital marketing strategies to improve an online presence.</p></article>
+          <article class="service-card"><div class="icon">🔎</div><h3>SEO Basics</h3><p>Search-friendly website structure, content and basic on-page SEO.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="section-label">MY WORK</p>
+        <h2>Featured Projects</h2>
+        <div class="projects">
+          <article class="project-card">
+            <div class="project-image">🌐</div>
+            <div class="project-body"><span>Web Design</span><h3>Business Landing Page</h3><p>A responsive landing page concept for a local business.</p><a href="#contact">View Project →</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-image">📱</div>
+            <div class="project-body"><span>Responsive Design</span><h3>Mobile Portfolio</h3><p>A simple portfolio layout designed for phones and desktops.</p><a href="#contact">View Project →</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-image">📊</div>
+            <div class="project-body"><span>Marketing</span><h3>Marketing Dashboard</h3><p>A dashboard UI concept for tracking digital marketing activity.</p><a href="#contact">View Project →</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-label">GET IN TOUCH</p>
+          <h2>Let's work together.</h2>
+          <p>If you have a website or digital marketing idea, feel free to contact me.</p>
+        </div>
+        <form id="contactForm" class="contact-form">
+          <input type="text" id="name" placeholder="Your name" required>
+          <input type="email" id="email" placeholder="Your email" required>
+          <textarea id="message" rows="5" placeholder="Your message" required></textarea>
+          <button class="btn primary" type="submit">Send Message</button>
+          <p id="formMessage" class="form-message"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© 2026 Ahmad Digital. Built with HTML, CSS & JavaScript.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
